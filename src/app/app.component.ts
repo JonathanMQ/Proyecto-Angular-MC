@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'PulentoWeb-Angular';
+  public title: string;
+  public descripcion: string;
+
+  constructor(){
+    this.title = 'Título PulentoWeb-Angular',
+    this.descripcion="Descripción lololollololololo"
+  }
 }
